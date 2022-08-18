@@ -5,29 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76021c61-5d1e-4ad4-8e3a-9582898294e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browsers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/clientPlatform/pages/basePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/clientPlatform/pages/contentPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/clientPlatform/pages/projectsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/clientPlatform/pages/signinPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/clientPlatform/tests/baseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/clientPlatform/tests/newClientFlows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/delivery/pages/deliveryDashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/pistachio/tests/baseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utilities/googleAuth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utilities/wait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/clientPlatform/tests/newClientFlows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/clientPlatform/tests/newClientFlows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/delivery/pages/deliveryDashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/delivery/pages/deliveryDashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/pistachio/tests/baseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/pistachio/tests/baseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ddr_testing_wip" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -192,7 +178,7 @@
       <workItem from="1660607204056" duration="566000" />
       <workItem from="1660654003944" duration="7614000" />
       <workItem from="1660668744101" duration="7432000" />
-      <workItem from="1660676257503" duration="31780000" />
+      <workItem from="1660676257503" duration="32089000" />
     </task>
     <servers />
   </component>
@@ -208,6 +194,17 @@
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
                   <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="ddr_testing_wip" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>

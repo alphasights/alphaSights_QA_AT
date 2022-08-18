@@ -28,7 +28,7 @@ public class deliveryDashboardPage {
     @FindBy(css = "div.select > select")
     public static WebElement teamsWhiteboadSelector;
 
-    @FindBy()
+
     //endregion
 
     //region importantProjects

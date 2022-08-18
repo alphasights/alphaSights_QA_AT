@@ -10,6 +10,4 @@ public class baseTest {
     public WebDriverWait wait;
     private googleAuth GoogleAuth;
 
-    @Test
-    public void
 }
