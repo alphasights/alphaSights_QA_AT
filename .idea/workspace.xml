@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76021c61-5d1e-4ad4-8e3a-9582898294e6" name="Changes" comment="">
+    <list default="true" id="76021c61-5d1e-4ad4-8e3a-9582898294e6" name="Changes" comment="removing issues that would create build errors.">
+      <change afterPath="$PROJECT_DIR$/src/application/clientPlatform/tests/regressionFlows/newClientFlows.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/clientPlatform/tests/newClientFlows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/clientPlatform/tests/newClientFlows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/delivery/pages/deliveryDashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/delivery/pages/deliveryDashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/clientPlatform/tests/baseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/clientPlatform/tests/baseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/clientPlatform/tests/newClientFlows.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/pistachio/tests/baseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/pistachio/tests/baseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +56,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_directory_selection": "/Users/user/Documents/GitHub/alphaSights_QA_AT/src/test/java",
@@ -81,6 +83,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="application.clientPlatform.tests.regressionFlows" />
       <recent name="application.delivery.pages" />
       <recent name="utilities" />
       <recent name="application.utilities" />
@@ -92,7 +95,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.baseTest.clientPlatformSignIn">
+  <component name="RunManager" selected="TestNG.baseTest.clientPlatformSignIn (1)">
     <configuration name="baseTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="alphaSights_QA_AT" />
       <extension name="coverage">
@@ -128,6 +131,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="baseTest.clientPlatformSignIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="alphaSights_QA_AT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.clientPlatform.tests.regressionFlows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="application.clientPlatform.tests" />
+      <option name="MAIN_CLASS_NAME" value="application.clientPlatform.tests.baseTest" />
+      <option name="METHOD_NAME" value="clientPlatformSignIn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="baseTest.googleSignIn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="alphaSights_QA_AT" />
       <extension name="coverage">
@@ -148,6 +169,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.baseTest.clientPlatformSignIn (1)" />
         <item itemvalue="TestNG.baseTest.clientPlatformSignIn" />
         <item itemvalue="TestNG.baseTest.googleSignIn" />
         <item itemvalue="TestNG.baseTest" />
@@ -178,8 +200,16 @@
       <workItem from="1660607204056" duration="566000" />
       <workItem from="1660654003944" duration="7614000" />
       <workItem from="1660668744101" duration="7432000" />
-      <workItem from="1660676257503" duration="32089000" />
+      <workItem from="1660676257503" duration="41142000" />
     </task>
+    <task id="LOCAL-00001" summary="removing issues that would create build errors.">
+      <created>1660853541384</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660853541384</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +242,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="removing issues that would create build errors." />
+    <option name="LAST_COMMIT_MESSAGE" value="removing issues that would create build errors." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
