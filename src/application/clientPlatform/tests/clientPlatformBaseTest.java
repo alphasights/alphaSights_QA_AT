@@ -1,7 +1,5 @@
 package application.clientPlatform.tests;
 
-
-import org.testng.annotations.BeforeGroups;
 import utilities.*;
 import application.clientPlatform.pages.*;
 import org.openqa.selenium.WebDriver;
@@ -9,21 +7,16 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
+import org.testng.annotations.BeforeGroups;
 import io.github.bonigarcia.wdm.WebDriverManager;
-
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.net.URI;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.time.Duration;
 import org.json.simple.*;
 import org.json.simple.parser.*;
 
 
-public class baseTest {
+public class clientPlatformBaseTest {
 
     public WebDriver driver;
     public WebDriverWait wait;
@@ -43,7 +36,7 @@ public class baseTest {
     String clientPlatformUsername = (String)jsonObject.get("clientPlatformUsername");
     String clientPlatformPassword = (String)jsonObject.get("clientPlatformPassword");
 
-    public baseTest() throws IOException, ParseException {
+    public clientPlatformBaseTest() throws IOException, ParseException {
     }
 
 
@@ -68,8 +61,7 @@ public class baseTest {
         wait.until(ExpectedConditions.visibilityOf(GoogleAuth.twoStepScreenTitle));
     }
 
-    @Test
-    //@BeforeGroups("standardLogin,regressionFlows")
+    @BeforeGroups("standardLogin")
     public void clientPlatformSignIn() throws InterruptedException {
         wait = new WebDriverWait(this.driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.urlToBe(clientPaltformUrl));

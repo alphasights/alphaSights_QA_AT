@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76021c61-5d1e-4ad4-8e3a-9582898294e6" name="Changes" comment="removing issues that would create build errors.">
-      <change afterPath="$PROJECT_DIR$/src/application/clientPlatform/tests/regressionFlows/newClientFlows.java" afterDir="false" />
+    <list default="true" id="76021c61-5d1e-4ad4-8e3a-9582898294e6" name="Changes" comment="made login data passed from JSON config on local machine.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/clientPlatform/tests/baseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/clientPlatform/tests/baseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/clientPlatform/tests/newClientFlows.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/pistachio/tests/baseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/pistachio/tests/baseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/clientPlatform/tests/baseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/clientPlatform/tests/clientPlatformBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/clientPlatform/tests/regressionFlows/newClientFlows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/clientPlatform/tests/regressionFlows/newClientFlows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/delivery/pages/deliveryDashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/delivery/pages/deliveryDashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/pistachio/tests/baseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/pistachio/tests/pistachioBaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.baseTest.clientPlatformSignIn (1)">
+  <component name="RunManager" selected="TestNG.pistachioBaseTest.navigateToPistachio">
     <configuration name="baseTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="alphaSights_QA_AT" />
       <extension name="coverage">
@@ -131,24 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="baseTest.clientPlatformSignIn" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="alphaSights_QA_AT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="application.clientPlatform.tests.regressionFlows.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="application.clientPlatform.tests" />
-      <option name="MAIN_CLASS_NAME" value="application.clientPlatform.tests.baseTest" />
-      <option name="METHOD_NAME" value="clientPlatformSignIn" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="baseTest.googleSignIn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="alphaSights_QA_AT" />
       <extension name="coverage">
@@ -167,9 +149,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="clientPlatformBaseTest.clientPlatformSignIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="alphaSights_QA_AT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.clientPlatform.tests.regressionFlows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="application.clientPlatform.tests" />
+      <option name="MAIN_CLASS_NAME" value="application.clientPlatform.tests.clientPlatformBaseTest" />
+      <option name="METHOD_NAME" value="clientPlatformSignIn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pistachioBaseTest.navigateToPistachio" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="alphaSights_QA_AT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.pistachio.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="application.pistachio.tests" />
+      <option name="MAIN_CLASS_NAME" value="application.pistachio.tests.pistachioBaseTest" />
+      <option name="METHOD_NAME" value="navigateToPistachio" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.baseTest.clientPlatformSignIn (1)" />
+        <item itemvalue="TestNG.pistachioBaseTest.navigateToPistachio" />
+        <item itemvalue="TestNG.clientPlatformBaseTest.clientPlatformSignIn" />
         <item itemvalue="TestNG.baseTest.clientPlatformSignIn" />
         <item itemvalue="TestNG.baseTest.googleSignIn" />
         <item itemvalue="TestNG.baseTest" />
@@ -200,7 +219,7 @@
       <workItem from="1660607204056" duration="566000" />
       <workItem from="1660654003944" duration="7614000" />
       <workItem from="1660668744101" duration="7432000" />
-      <workItem from="1660676257503" duration="41142000" />
+      <workItem from="1660676257503" duration="48839000" />
     </task>
     <task id="LOCAL-00001" summary="removing issues that would create build errors.">
       <created>1660853541384</created>
@@ -209,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660853541384</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="made login data passed from JSON config on local machine.">
+      <created>1660929799232</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660929799232</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +271,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removing issues that would create build errors." />
-    <option name="LAST_COMMIT_MESSAGE" value="removing issues that would create build errors." />
+    <MESSAGE value="made login data passed from JSON config on local machine." />
+    <option name="LAST_COMMIT_MESSAGE" value="made login data passed from JSON config on local machine." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
